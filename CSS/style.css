@@ -1,0 +1,175 @@
+*{margin: 0%; padding: 0%;}
+/*Estilos del Body*/
+body{
+    background-color:#FFF0C9;
+}
+/*Estilos del Main*/
+main{
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Estilos del Header*/
+.encabezado {
+    display:flex;
+    background-color: green;
+    align-items: center;
+    justify-content:space-between;
+}
+/*Estilos del logo del header*/
+header img {
+    width: 200px;
+    padding-left: 10%;
+}
+
+/*Estilos de las listas de
+las secciones en el header*/
+header ul li{
+    display:inline-block;
+    margin: 20px;
+}
+.secc{
+    padding-right: 10px;
+}
+header ul li a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: brown;
+}
+/**/
+div h1{
+    min-height: 10vh;
+}
+label{
+    color:white;
+}
+.login{
+    width: 250px;
+    height: 250px;
+    background-color:cadetblue;
+    padding:10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+.formularios div{
+    margin: 10px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.registro .formularios{
+    width: 250px;
+    height: 360px;
+    background-color:cadetblue;
+    padding:10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+legend, button{
+    margin-left: 100px;
+}
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+thead, tbody,tfoot{
+    margin: auto;
+}
+.nosotros p{
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    margin: 30px;
+    background: pink;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+/*Estilos a las imagenes de productos*/
+.img-2 {
+    padding-inline: 50px;
+}
+.logo2{
+    padding-inline: 75px ;
+}
+/*Estilos del Footer*/
+footer{
+    background-color:green;
+    position:absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 50px;
+    text-align: center;    
+}
+footer small{
+    color: white;
+}
+
+.img-1 a:hover{
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid red;
+    border-radius: 30px;
+}
+.back a{
+    display:inline-block;
+    margin: 20px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size:xx-large;
+}
+.back a:hover{
+    color: brown;
+}
+.t-tabla tr, th{
+background-color:blue;
+}
+.t-tabla, th {
+    color:white;
+}
+.alta label{
+    margin-top: 25px;
+    color: black;
+}
+.cat, label{
+text-align: center;
+color: black;
+}
+.boton{
+    text-align: center;
+    margin-top: 10px;
+}
+.t-abm{
+    margin-bottom: 25px;
+}
+.titulos{
+    text-align: center;
+    margin-top: 100px;
+}
+.alta {
+    margin-top: 25px;
+}
+legend {
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+.sub {
+    text-align: center;
+    padding: 1em;
+}
